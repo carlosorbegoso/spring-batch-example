@@ -1,2 +1,35 @@
-# api-sunat
-# spring-batch-example
+```
+└── 📁src
+    └── 📁main
+        └── 📁java
+            └── 📁com
+                └── 📁skyblue
+                    └── 📁apiconsultas
+                        └── ApiConsultasApplication.java
+                        └── 📁application
+                            └── 📁query
+                                └── 📁service
+                                    └── BatchConfig.java
+                                    └── SunatDataProcessor.java
+                        └── 📁controller
+                            └── SunatController.java
+                            └── SunatDataController.java
+                        └── 📁data
+                            └── SunatData.java
+                            └── SunatDataRepository.java
+                        └── 📁dto
+                            └── Message.java
+                            └── SunatRuc.java
+                        └── 📁service
+                            └── SunatQueryService.java
+        └── 📁resources
+            └── application.yml
+            └── 📁static
+            ├── templates
+    └── 📁test
+        └── 📁java
+            └── 📁com
+                └── 📁skyblue
+                    └── 📁apiconsultas
+                        └── ApiConsultasApplicationTests.java
+```
