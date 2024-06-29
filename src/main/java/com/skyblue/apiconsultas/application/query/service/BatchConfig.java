@@ -36,6 +36,8 @@ public class BatchConfig {
         itemReader.setResource(new FileSystemResource("src/main/resources/padron_reducido_ruc.txt"));
         itemReader.setName("SunatData-Reader");
         itemReader.setLinesToSkip(1);
+
+
         itemReader.setLineMapper(lineMapper());
         return itemReader;
     }
